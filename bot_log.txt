@@ -1,0 +1,202 @@
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:53:29 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:53:30 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:53:32 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:53:33 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:35 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:38 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:40 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:42 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:44 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:46 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:53:48 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:53:50 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:53:52 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:54:24 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:54:26 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:54:28 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:54:30 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:54:32 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:54:34 2025
+cc, 0.0, 0.3306594142870438, Wed Mar  5 00:54:36 2025
+cc, 0.0, 0.3345931206699021, Wed Mar  5 00:54:37 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:54:39 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:54:40 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:54:42 2025
+cc, 0.0, 3.594398261242077, Wed Mar  5 00:54:43 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:06:58 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:00 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:03 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:05 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:07 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:10 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:12 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:14 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:17 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:19 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:21 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:24 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:26 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:28 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:31 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:33 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:35 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:38 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:40 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:07:42 2025
+cbr, 0.5, 0.16692963913083075, Wed Mar  5 01:07:46 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:05 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:08 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:10 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:12 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:14 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:17 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:19 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:21 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:24 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:26 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:28 2025
+cc, 0.0, 0.24419464009557001, Wed Mar  5 01:09:31 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:01:27 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:01:33 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:01:39 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:01:45 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:01:51 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:01:57 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:04:37 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:04:43 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:04:49 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:04:55 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:05:01 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:05:07 2025
+Action: cc, Bet Size: 0.0, Wed Mar  5 12:05:13 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:19:56 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:20:03 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:20:10 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:20:17 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:20:24 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:23:53 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:24:00 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:24:08 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:24:15 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:24:22 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:24:29 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:28:27 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:28:35 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:28:42 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:28:49 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:28:56 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:29:03 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , , Wed Mar  5 12:29:10 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , Wed Mar  5 12:29:18 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:29:25 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:29:33 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:29:40 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:29:47 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:29:55 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:02 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:09 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:17 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:24 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:31 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:39 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:46 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:30:53 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:01 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:08 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:15 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:23 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:30 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:37 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:45 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:31:52 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:00 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:07 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:14 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:22 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:29 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:36 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:44 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:51 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:32:58 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:06 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:13 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:20 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:28 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:35 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:42 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:50 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:33:57 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:04 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:12 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:19 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:27 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:34 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:41 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:49 2025
+Action: cbr, Bet Size: 102.14822387695312, Board Cards: , , , , , Wed Mar  5 12:34:56 2025
+Action: cc, Bet Size: 0.0, Board Cards: , Wed Mar  5 12:35:03 2025
+Action: cc, Bet Size: 0.0, Board Cards: , , , , , Fri Mar  7 11:06:21 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, Thu Mar 13 13:36:53 2025
+Action: cc, Bet Size: 0.00, Board Cards: A♠, Q♦, 6♠, Thu Mar 13 13:39:40 2025
+Action: cc, Bet Size: 0.00, Board Cards: A♠, 7♦, 2♥, Thu Mar 13 13:40:22 2025
+Action: cbr, Bet Size: 2.54, Board Cards: 4♦, Q♠, Q♥, Mon Mar 24 11:47:25 2025
+Action: cbr, Bet Size: 1.64, Board Cards: J♠, 9♠, 2♦, Mon Mar 24 11:51:20 2025
+Action: cbr, Bet Size: 1.61, Board Cards: J♠, 9♠, 2♦, Mon Mar 24 11:57:58 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, 3♣, Mon Mar 24 11:58:58 2025
+Action: cbr, Bet Size: 1.61, Board Cards: J♠, 9♠, 2♦, Mon Mar 24 12:09:32 2025
+Action: cbr, Bet Size: 1.89, Board Cards: J♠, 9♠, 2♦, 3♣, Mon Mar 24 12:10:13 2025
+Action: cbr, Bet Size: 7.50, Board Cards: J♠, 9♠, 2♣, Mon Mar 24 12:13:25 2025
+Action: cbr, Bet Size: 16.50, Board Cards: J♠, 9♠, 2♣, 3♣, Mon Mar 24 12:13:39 2025
+Action: cbr, Bet Size: 5.00, Board Cards: J♠, 9♠, 2♦, Mon Mar 24 12:17:39 2025
+Action: cbr, Bet Size: 10.00, Board Cards: J♠, 9♠, 2♦, 3♣, Mon Mar 24 12:17:51 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, 3♣, 5♦, Mon Mar 24 12:18:05 2025
+Action: cbr, Bet Size: 6.00, Board Cards: J♠, 9♠, 2♦, Mon Mar 24 12:23:03 2025
+Action: cbr, Bet Size: 13.20, Board Cards: J♠, 9♠, 2♦, 3♣, Mon Mar 24 12:23:09 2025
+Action: cbr, Bet Size: 19.36, Board Cards: J♠, 9♠, 2♦, 3♣, 5♦, Mon Mar 24 12:23:21 2025
+Action: cbr, Bet Size: 1.61, Board Cards: J♠, 9♠, 2♦, Mon Mar 24 12:30:16 2025
+Action: cbr, Bet Size: 1.89, Board Cards: J♠, 9♠, 2♦, 3♣, Mon Mar 24 12:30:23 2025
+Action: cbr, Bet Size: 2.04, Board Cards: J♠, 9♠, 2♦, 3♣, 5♦, Mon Mar 24 12:30:35 2025
+Action: cbr, Bet Size: 1.00, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 11:36:15 2025
+Action: cbr, Bet Size: 1.20, Board Cards: J♠, 9♠, 2♦, 3♣, Wed Mar 26 13:20:44 2025
+Action: cbr, Bet Size: 1.14, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 13:42:01 2025
+Action: cbr, Bet Size: 1.30, Board Cards: J♠, 9♠, 2♦, 3♣, Wed Mar 26 13:42:11 2025
+Action: cbr, Bet Size: 1.19, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 13:57:43 2025
+Action: cbr, Bet Size: 1.36, Board Cards: J♠, 9♠, 2♦, 3♣, Wed Mar 26 13:57:49 2025
+Action: cbr, Bet Size: 1.14, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 14:04:53 2025
+Action: cbr, Bet Size: 1.30, Board Cards: J♠, 9♠, 2♦, 3♣, Wed Mar 26 14:05:01 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, 3♣, 5♦, Wed Mar 26 14:05:09 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 14:13:11 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, 3♣, Wed Mar 26 14:13:27 2025
+Action: f, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 14:40:19 2025
+Action: f, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, 3♣, Wed Mar 26 14:40:29 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, Wed Mar 26 16:17:14 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, Mon Mar 31 09:17:44 2025
+Action: cc, Bet Size: 0.00, Board Cards: J♠, 9♠, 2♦, Fri Apr  4 20:38:10 2025
+Mon Apr  7 23:30:57 2025: Action=cc, bet=0.00, pot=10.00
+Mon Apr  7 23:31:20 2025: Action=cc, bet=0.00, pot=10.00
+Mon Apr  7 23:31:29 2025: Action=cc, bet=0.00, pot=10.00
+Mon Apr  7 23:37:15 2025: Action=cc, bet=0.00, pot=10.00, heroHS=0.00
+Tue Apr  8 01:24:57 2025: Action=cc, bet=0.00, pot=10.00, heroHS=0.00
+Tue Apr  8 02:05:52 2025: Action=cbr, bet=5.94, pot=10.00, heroHS=0.46
+Tue Apr  8 02:06:18 2025: Action=cbr, bet=12.98, pot=21.87, heroHS=0.46
+Tue Apr  8 02:06:38 2025: Action=cbr, bet=28.40, pot=47.84, heroHS=0.46
+Tue Apr  8 02:10:35 2025: Action=cc, bet=0.00, pot=10.00, heroHS=0.13
+Tue Apr  8 02:18:18 2025: Action=cc, bet=0.00, pot=10.00, heroHS=0.46, heroPot=0.00
+Tue Apr  8 02:18:32 2025: Action=cc, bet=0.00, pot=10.00, heroHS=0.46, heroPot=0.00
+Tue Apr  8 02:18:47 2025: Action=cc, bet=0.00, pot=10.00, heroHS=0.46, heroPot=0.00
+Tue Apr  8 02:22:25 2025: Action=cbr, bet=5.94, pot=10.00, heroHS=0.46, heroPot=0.00
+Tue Apr  8 02:22:34 2025: Action=cbr, bet=12.98, pot=21.87, heroHS=0.46, heroPot=0.00
+Tue Apr  8 02:22:48 2025: Action=cbr, bet=28.40, pot=47.84, heroHS=0.46, heroPot=0.00
+Tue Apr  8 02:23:12 2025: Action=cbr, bet=5.94, pot=10.00, heroHS=0.13, heroPot=0.20
+Tue Apr  8 02:23:30 2025: Action=cbr, bet=12.98, pot=21.87, heroHS=0.91, heroPot=0.20
+Tue Apr  8 02:24:04 2025: Action=cbr, bet=5.94, pot=10.00, heroHS=0.16, heroPot=0.00
+Tue Apr  8 02:24:18 2025: Action=cbr, bet=12.98, pot=21.87, heroHS=0.16, heroPot=0.00
+Tue Apr  8 02:39:06 2025: Action=cbr, bet=10.0, pot=10.00, heroHS=0.462, heroPot=0.000
+Tue Apr  8 02:39:23 2025: Action=cbr, bet=190.0, pot=30.00, heroHS=0.462, heroPot=0.200
+Tue Apr  8 02:50:18 2025: Action=cc, bet=0.0, pot=1.00, heroHS=0.462, heroPot=0.000
+Tue Apr  8 02:51:02 2025: Action=cbr, bet=0.33, pot=1.00, heroHS=0.462, heroPot=0.000
+Thu Apr 10 10:37:00 2025: Action=cbr, bet=12.5, pot=10.00, heroHS=0.462, heroPot=0.000
+Thu Apr 10 10:38:04 2025: Action=cbr, bet=12.5, pot=10.00, heroHS=0.462, heroPot=0.200
+Mon Apr 14 11:43:13 2025: Action=cc, bet=0.0, pot=10.00, heroHS=0.462, heroPot=0.000
+Mon Apr 14 11:43:47 2025: Action=cbr, bet=10.0, pot=10.00, heroHS=0.462, heroPot=0.000
+Mon Apr 14 11:47:14 2025: Action=cbr, bet=190.0, pot=30.00, heroHS=0.462, heroPot=0.000

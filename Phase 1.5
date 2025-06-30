@@ -1,0 +1,132 @@
+# poker_ev_upgrade.py
+
+import pandas as pd
+import numpy as np
+import pickle
+import xgboost as xgb
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import roc_auc_score, accuracy_score
+from sklearn.preprocessing import LabelEncoder
+
+# === Phase 1.5: Train Win Probability Model ===
+
+def train_win_probability_model(df, save_path="win_prob_model.pkl"):
+    # Filter only hands that reached showdown
+    showdown_df = df[df["showdown_result"].notna()].copy()
+    
+    # Binary outcome: 1 = bot won, 0 = bot lost
+    showdown_df["win"] = showdown_df["showdown_result"].apply(lambda x: 1 if x == "win" else 0)
+
+    # Encode categorical features
+    le_street = LabelEncoder()
+    le_position = LabelEncoder()
+    le_texture = LabelEncoder()
+    
+    showdown_df["street_encoded"] = le_street.fit_transform(showdown_df["street"])
+    showdown_df["position_encoded"] = le_position.fit_transform(showdown_df["position"])
+    showdown_df["board_texture_encoded"] = le_texture.fit_transform(showdown_df["board_texture"])
+
+    # Select features
+    features = [
+        "street_encoded", "pot_size", "position_encoded", "stack_to_pot_ratio",
+        "effective_stack", "board_texture_encoded", "board_connectedness",
+        "is_preflop_aggressor", "bet_size_to_pot_ratio", "prev_bet_size",
+        "player_agg_freq", "player_fold_freq_roll", "player_pass_freq_roll"
+    ]
+
+    for feat in features:
+        showdown_df[feat] = pd.to_numeric(showdown_df[feat], errors="coerce").fillna(0.0)
+
+    X = showdown_df[features]
+    y = showdown_df["win"]
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    dtrain = xgb.DMatrix(X_train, label=y_train, feature_names=features)
+    dtest = xgb.DMatrix(X_test, label=y_test, feature_names=features)
+
+    params = {
+        'objective': 'binary:logistic',
+        'eval_metric': 'auc',
+        'max_depth': 5,
+        'eta': 0.1,
+        'subsample': 0.8,
+        'colsample_bytree': 0.8,
+        'seed': 42
+    }
+
+    model = xgb.train(params, dtrain, num_boost_round=200, evals=[(dtest, 'test')], 
+                      early_stopping_rounds=10, verbose_eval=10)
+
+    preds = model.predict(dtest)
+    auc = roc_auc_score(y_test, preds)
+    acc = accuracy_score(y_test, (preds > 0.5).astype(int))
+    print(f"Win prob model - AUC: {auc:.4f}, Accuracy: {acc:.4f}")
+
+    # Save the model
+    with open(save_path, "wb") as f:
+        pickle.dump(model, f)
+
+    return model, features
+
+
+# === Use Win Model in EV Estimation ===
+
+def load_win_model(path="win_prob_model.pkl"):
+    with open(path, "rb") as f:
+        return pickle.load(f)
+
+def estimate_win_probability(row, model, win_features):
+    df = pd.DataFrame([row])
+    for f in win_features:
+        df[f] = pd.to_numeric(df[f], errors='coerce').fillna(0.0)
+    dmat = xgb.DMatrix(df[win_features], feature_names=win_features)
+    win_prob = model.predict(dmat)[0]
+    return max(min(win_prob, 0.95), 0.05)  # bound for sanity
+
+
+# === Revised EV Calculation ===
+
+def estimate_ev_with_win_model(pred_probs, pred_bet_size, row, win_model, win_features):
+    fold_prob, call_prob, raise_prob = pred_probs
+    win_prob = estimate_win_probability(row, win_model, win_features)
+
+    pot = row["pot_size"]
+    eff_stack = row["effective_stack"]
+    prev_bet = row["prev_bet_size"]
+    
+    evs = {}
+    evs["f"] = 0.0
+
+    if prev_bet > 0:
+        call_cost = prev_bet
+        evs["cc"] = call_prob * (pot + call_cost) * win_prob - call_cost * (1 - win_prob)
+    else:
+        evs["cc"] = pot * win_prob * call_prob
+
+    bet_size = max(min(pred_bet_size, pot * 1.5), pot * 0.1)
+    bet_size = min(bet_size, eff_stack)
+
+    ev_fold = pot * fold_prob
+    ev_call = (pot + bet_size) * call_prob * win_prob - bet_size * call_prob * (1 - win_prob)
+    ev_raise = -bet_size * raise_prob  # highly conservative
+    evs["cbr"] = ev_fold + ev_call + ev_raise
+
+    best_action = max(evs, key=evs.get)
+    return best_action, bet_size if best_action == 'cbr' else 0.0, evs[best_action], win_prob
+
+
+# === Example Usage ===
+if __name__ == "__main__":
+    # Load your processed poker DataFrame (ensure it contains "showdown_result")
+    df = pd.read_csv("/Users/bennykuttler/Downloads/Poker Bot/poker_data.csv")
+
+    model, win_feats = train_win_probability_model(df)
+    print("Win model trained and saved.")
+
+    # Simulate a test row (replace this with a real one)
+    sample_row = df.iloc[0].to_dict()
+    example_probs = [0.25, 0.60, 0.15]  # mock prediction for fold/call/raise
+    predicted_bet_size = sample_row.get("bet_size_to_pot_ratio", 0.5) * sample_row.get("pot_size", 1.0)
+
+    action, bet, ev, win = estimate_ev_with_win_model(example_probs, predicted_bet_size, sample_row, model, win_feats)
+    print(f"Suggested Action: {action}, Bet Size: {bet:.2f} BB, EV: {ev:.2f}, WinProb: {win:.2f}")
